@@ -2,7 +2,7 @@
 
 .intro_container {
   max-width: 70vw;
-  width: 100vw;
+  width: 50vw;
   height: 33rem;
   margin: auto;
   margin-top: 13%;
@@ -35,7 +35,7 @@
   color: #f3efe88c;
 }
 .intro_context {
-  max-width: 25%;
+  max-width: 45%;
   color: #d6d6d6;
   background: #f1706b;
   padding: 10px;
