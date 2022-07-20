@@ -14,9 +14,7 @@
   letter-spacing: 6px;
 }
 .nav_container > p {
-  /* flex: 1; */
   padding-left: 1rem;
-  /* max-width: ; */
   position: absolute;
   top: 0;
   left: 1vw;
@@ -38,7 +36,8 @@
   border-radius: 8px;
   background: linear-gradient(to right, #2eafab, #f1706b);
   border: none;
-  margin-right: 3rem;
+  /* position: absolute; */
+  margin-right: 3%;
   font-size: 0.8rem;
   text-transform: uppercase;
   font-family: "Roboto Mono", "monospace";

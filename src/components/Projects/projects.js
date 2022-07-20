@@ -35,7 +35,7 @@ export const projectData = [
   {
     title: "TikTok Clone",
     about:
-      "When taking a URL from a Tiktok website and pastig it in another page,u will get a seperate page that is hosting the Video.This is a Clone of that.NOTE-need to change dimension for it to work(ipad air) :)",
+      "When taking a URL from a Tiktok website and pasting it in another page,u will get a seperate page that is hosting the Video.This is a Clone of that.NOTE-need to change dimension for it to work(ipad air) :)",
     languages: "HTML,CSS,ReactJS,MUI,Axios,MongoDB atlas,Node.js,Express",
     url: "https://tikt0k-clone.netlify.app/",
     image: <img src={Tiktok} />,

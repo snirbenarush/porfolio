@@ -3,10 +3,10 @@
 .intro_container {
   max-width: 70vw;
   width: 100vw;
-  height: 40vh;
+  height: 33rem;
   margin: auto;
-  margin-top: 25vh;
-  margin-left: 25vw;
+  margin-top: 13%;
+  margin-left: 33%;
 }
 .intro_container > :nth-child(1) {
   font-size: 1rem;
@@ -22,7 +22,7 @@
   font-size: 4rem;
   font-family: "Anton", sans-serif;
   letter-spacing: 5px;
-  width: 40vw;
+  min-width: 55%;
   margin: 0;
   color: #f3efe8;
 }
@@ -35,7 +35,7 @@
   color: #f3efe88c;
 }
 .intro_context {
-  width: 30vw;
+  max-width: 25%;
   color: #d6d6d6;
   background: #f1706b;
   padding: 10px;

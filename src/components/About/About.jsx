@@ -7,7 +7,8 @@ const About = () => {
 
       <div>
         <div className="about_context">
-          <p>
+          <p className="introduce">
+            Hello! My name is Snir and i like to create anything web related.
             Since I was 6 my passion was drawing and creating things from my
             imagination.I grew up training alot and competing in speedcubing
             (solving rubik's cubes) until the age of 19. Fast forward to ending
@@ -20,7 +21,10 @@ const About = () => {
             grows bigger everyday. Here are a few technologies I've been working
             with recently:
           </p>
-          Hello! My name is Snir and i like to create anything web related.
+          <img
+            src="https://media-exp1.licdn.com/dms/image/C4E03AQHEypcK9fiIjg/profile-displayphoto-shrink_400_400/0/1657375172728?e=1663804800&v=beta&t=Q4XQjNgQ6V2i1u1kZl9GgH_Q8MvKz_9nnaZoFRNwWwc"
+            className="profile_img"
+          />
         </div>
         <ul className="lang_section">
           <li>Javascript (ES6+)</li>
@@ -28,11 +32,6 @@ const About = () => {
           <li>CSS</li>
           <li>Node.js</li>
         </ul>
-        <img
-          src="https://media-exp1.licdn.com/dms/image/C4E03AQHEypcK9fiIjg/profile-displayphoto-shrink_400_400/0/1657375172728?e=1663804800&v=beta&t=Q4XQjNgQ6V2i1u1kZl9GgH_Q8MvKz_9nnaZoFRNwWwc"
-          className="profile_img"
-        />
-        <div className="border"></div>
       </div>
     </div>
   );

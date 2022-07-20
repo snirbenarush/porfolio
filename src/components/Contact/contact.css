@@ -1,6 +1,6 @@
 .contact_container {
-  margin-top: 45vh;
-  margin-left: 35vw;
+  margin-top: 20%;
+  margin-left: 33%;
 }
 .contact_header {
   color: #ff9e9a;
@@ -27,16 +27,19 @@
   /* width: 10vw; */
   height: 5vh;
   color: white;
+  position: relative;
 }
 .details > svg {
-  width: 30px;
-  height: 30px;
+  width: 2rem;
+  height: 2rem;
 }
 .backtotop {
-  /* position: absolute; */
-  width: 10vw;
+  position: absolute;
+  /* width: 10vw; */
+  max-width: fit-content;
   height: 5vh;
-  margin: 2vh;
+  top: 10vh;
+  left: 14vh;
   border-radius: 8px;
   border: 1px solid white;
   background-color: #ff9e9a;
@@ -45,13 +48,11 @@
   text-transform: uppercase;
   letter-spacing: 1px;
   transition: all 600ms;
-  font-size: 1rem;
-  margin-left: -33vw;
-  margin-top: 30vh;
+  font-size: 1.5vh;
+  padding: 10px;
 }
 .backtotop:hover {
   background: #fcaf51;
   transition: all 600ms;
-  font-size: 1.1rem;
   cursor: pointer;
 }

@@ -18,16 +18,15 @@ const Nav = () => {
           <li className="info">contact </li>
         </Link>
       </ul>
-      <div>
-        <button
-          className="btn_resume"
-          onClick={() => {
-            window.open(CV);
-          }}
-        >
-          resume
-        </button>
-      </div>
+
+      <button
+        className="btn_resume"
+        onClick={() => {
+          window.open(CV);
+        }}
+      >
+        resume
+      </button>
     </div>
   );
 };
