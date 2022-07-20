@@ -1,0 +1,53 @@
+@import url(https://fonts.googleapis.com/css?family=Anton:regular);
+
+.about_container {
+  margin: auto;
+  margin-top: 50vh;
+  margin-left: 30vw;
+}
+/* .header_section::after {
+  content: "";
+  display: block;
+  position: relative;
+  top: -11px;
+  width: 20vw;
+  height: 1px;
+  margin-left: 11vw;
+  background-color: #f37703;
+} */
+
+.header_section {
+  color: #ff9e9a;
+  font-size: 1.3rem;
+  border-bottom: 1px solid #ff9e9a;
+  width: 20vw;
+  font-family: "Anton";
+  letter-spacing: 2px;
+  height: 6vh;
+}
+.about_context {
+  width: 30vw;
+  margin-top: 4vh;
+  color: rgb(230, 227, 227);
+}
+.lang_section {
+  color: #fcaf51;
+  list-style-type: square;
+}
+.profile_img {
+  width: 250px;
+  height: 250px;
+  margin-left: 40vw;
+  position: absolute;
+  top: 140vh;
+}
+.border {
+  border: 2px solid #ff8c00;
+  width: 250px;
+  height: 250px;
+  left: 10px;
+  z-index: -1;
+  position: absolute;
+  top: 143vh;
+  margin-left: 70vw;
+}

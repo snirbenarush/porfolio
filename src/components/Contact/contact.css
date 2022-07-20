@@ -1,0 +1,57 @@
+.contact_container {
+  margin-top: 45vh;
+  margin-left: 35vw;
+}
+.contact_header {
+  color: #ff9e9a;
+  font-size: 1.2rem;
+  font-family: "Anton";
+  letter-spacing: 2px;
+  border-bottom: 1px solid #ff9e9a;
+  width: 24vw;
+  height: 6vh;
+  text-align: center;
+}
+.details > p {
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+.details {
+  align-items: center;
+  justify-content: flex-start;
+
+  margin-top: 10vh;
+  display: flex;
+  gap: 7vh;
+  /* width: 10vw; */
+  height: 5vh;
+  color: white;
+}
+.details > svg {
+  width: 30px;
+  height: 30px;
+}
+.backtotop {
+  /* position: absolute; */
+  width: 10vw;
+  height: 5vh;
+  margin: 2vh;
+  border-radius: 8px;
+  border: 1px solid white;
+  background-color: #ff9e9a;
+  font-family: "Roboto Mono";
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 600ms;
+  font-size: 1rem;
+  margin-left: -33vw;
+  margin-top: 30vh;
+}
+.backtotop:hover {
+  background: #fcaf51;
+  transition: all 600ms;
+  font-size: 1.1rem;
+  cursor: pointer;
+}

@@ -1,0 +1,49 @@
+@import url(https://fonts.googleapis.com/css?family=Anton:regular);
+
+.intro_container {
+  max-width: 70vw;
+  width: 100vw;
+  height: 40vh;
+  margin: auto;
+  margin-top: 25vh;
+  margin-left: 25vw;
+}
+.intro_container > :nth-child(1) {
+  font-size: 1rem;
+  color: #ff9e9a;
+}
+.tag_container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 50vw;
+}
+.name_tag {
+  font-size: 4rem;
+  font-family: "Anton", sans-serif;
+  letter-spacing: 5px;
+  width: 40vw;
+  margin: 0;
+  color: #f3efe8;
+}
+.build_tag {
+  font-size: 4rem;
+  font-family: "Anton", sans-serif;
+  letter-spacing: 1px;
+  width: 65vw;
+  margin: 0;
+  color: #f3efe88c;
+}
+.intro_context {
+  width: 30vw;
+  color: #d6d6d6;
+  background: #f1706b;
+  padding: 10px;
+  font-size: 14px;
+  text-align: start;
+  border-radius: 8px;
+  transition: all 500ms;
+}
+.intro_context:hover {
+  color: white;
+}

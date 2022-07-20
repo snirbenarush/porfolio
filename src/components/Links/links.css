@@ -1,0 +1,34 @@
+.link_container {
+  position: fixed;
+  bottom: 0vh;
+  display: flex;
+  flex-direction: column;
+  gap: 3vh;
+  margin-left: 5vw;
+  align-items: center;
+}
+
+.link_container::after {
+  content: "";
+  /* display: block; */
+  position: relative;
+  /* top: -11px; */
+  width: 1px;
+  height: 15vh;
+  margin-bottom: 10px;
+  background-color: #fcaf51;
+  margin: 0;
+}
+.links {
+  width: 20px;
+  height: 20px;
+  stroke: white;
+  color: white;
+  transition: all 250ms;
+}
+.links:hover {
+  cursor: pointer;
+  stroke: #fcaf51;
+  color: #fcaf51;
+  transition: all 250ms;
+}
